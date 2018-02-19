@@ -114,7 +114,7 @@ t.test(A2010,A2017)
 
 
 # time series graph
-ts <- readClipboard(raw = FALSE)
+ts <- readClipboard(raw = FALSE) # copy data from monthly summaries
 
 ts1 <- read.table("clipboard", sep = "\t")
 ts1
