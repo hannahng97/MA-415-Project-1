@@ -113,11 +113,9 @@ customTest(A2010,A2017)
 Although the mean of Tucson in 2010 was 17684 apprehensions, and the mean of Rio Grande Valley in 2017 was 11464, there seems that there would be a difference in the mean. Surprisingly, the t-test gave a t-score of 2, and a p-value of 0.06. Using an alpha of 0.05, we fail to reject the null hypothesis since the p-value is greater than alpha. This p-value is still low, but not low enough. This means that the difference in the means of apprehensions in 2010 and 2017 are not significantly different. This is also seen in the confidence interval, which is (-380, 12820), and includes 0, meaning there is not a significant difference. 
 
 
-Then, we compared the 3 month periods with the most apprehensions in 2010 and 2017. In 2010, March, April, and May had the most apprehensions, and in 2017, October, November, and December had the most apprehensions. Again, with this data, we took a t-test to see if there was a significant difference in these maximums.
-
-
 \newpage
 #### Most Apprehensions in 3 Month Period
+Then, we compared the 3 month periods with the most apprehensions in 2010 and 2017. In 2010, March, April, and May had the most apprehensions, and in 2017, October, November, and December had the most apprehensions. Again, with this data, we took a t-test to see if there was a significant difference in these maximums.
 ```{r}
 #Get top three months
 topMonths <- function(data){
