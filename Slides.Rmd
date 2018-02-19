@@ -21,8 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## In this project...
 
-* We compare the number of border patrol apprehensions in the years 2010 and 2017 to see if there has been a significant decrease in apprehensions
-* We compare different months in each sector
+* We compare the number of border patrol apprehensions in 2010 and 2017 by months and sector to see if there has been a significant decrease in apprehensions
     + Big Bend
     + Del Rio
     + El Centro
